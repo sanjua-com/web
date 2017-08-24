@@ -1,4 +1,4 @@
-langcode: en
+langcode: es
 status: true
 dependencies:
   config:
@@ -11,6 +11,7 @@ dependencies:
     - image.style.thumbnail
     - node.type.article
   module:
+    - cshs
     - image
     - path
     - text
@@ -36,9 +37,12 @@ content:
     third_party_settings: {  }
   field_category:
     weight: 3
-    settings: {  }
+    settings:
+      parent: '0'
+      level_labels: 'Categoría, Subcategoría'
+      force_deepest: 0
     third_party_settings: {  }
-    type: options_select
+    type: cshs
     region: content
   field_dropline:
     weight: 2
@@ -69,7 +73,7 @@ content:
     settings:
       match_operator: CONTAINS
       size: 60
-      placeholder: 'Ex: Leonel Messi'
+      placeholder: 'Ej: Leonel Messi'
     third_party_settings: {  }
     type: entity_reference_autocomplete_tags
     region: content

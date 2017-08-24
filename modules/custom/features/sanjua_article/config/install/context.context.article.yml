@@ -1,0 +1,38 @@
+langcode: es
+status: true
+dependencies:
+  module:
+    - ctools
+name: article
+label: Article
+group: content
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+    negate: 0
+    uuid: 0a351d0d-3703-4c5c-b683-35b27987e018
+    context_mapping:
+      node: '@node.node_route_context:node'
+reactions:
+  blocks:
+    blocks:
+      3ede1e9e-d597-4062-8920-29043f7433c9:
+        id: addtoany_block
+        label: 'Compartir en'
+        provider: addtoany
+        label_display: visible
+        region: sidebar_second
+        weight: '0'
+        context_mapping: {  }
+        theme: base
+        unique: 0
+        uuid: 3ede1e9e-d597-4062-8920-29043f7433c9
+    id: blocks
+    saved: false
+    uuid: 35c3ba8e-21b7-4703-bb5f-b89e18b616ff
+weight: 0

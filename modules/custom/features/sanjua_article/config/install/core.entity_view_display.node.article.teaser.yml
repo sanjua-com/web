@@ -1,9 +1,14 @@
-langcode: en
+langcode: es
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.article.body
+    - field.field.node.article.field_category
+    - field.field.node.article.field_dropline
+    - field.field.node.article.field_images
+    - field.field.node.article.field_source
+    - field.field.node.article.field_tags
     - node.type.article
   module:
     - ds
@@ -56,6 +61,11 @@ targetEntityType: node
 bundle: article
 mode: teaser
 content:
+  addtoany:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   body:
     label: hidden
     type: text_default
@@ -63,6 +73,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: ds_content
+  flag_like:
+    weight: 10
+    region: content
 hidden:
+  field_category: true
+  field_dropline: true
+  field_images: true
+  field_source: true
+  field_tags: true
   langcode: true
   links: true

@@ -1,0 +1,12 @@
+langcode: es
+status: true
+dependencies:
+  module:
+    - flag
+id: flag_action.like.flag
+label: Favorito
+type: node
+plugin: 'flag_action:like.flag'
+configuration:
+  flag_id: like
+  flag_action: flag

@@ -3,6 +3,9 @@ description: 'Provides Article content type and related configuration. '
 type: module
 core: 8.x
 dependencies:
+  - context
+  - cshs
+  - ctools
   - ds
   - field
   - file
@@ -14,6 +17,7 @@ dependencies:
   - path
   - pathauto
   - rest
+  - sanjua_core
   - serialization
   - taxonomy
   - text
