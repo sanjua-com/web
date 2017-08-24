@@ -1,0 +1,26 @@
+name: Article
+description: 'Provides Article content type and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - context
+  - cshs
+  - ctools
+  - ds
+  - field
+  - file
+  - image
+  - language
+  - menu_ui
+  - node
+  - paragraphs
+  - path
+  - pathauto
+  - rest
+  - sanjua_core
+  - serialization
+  - taxonomy
+  - text
+  - user
+  - views
+package: Sanjua

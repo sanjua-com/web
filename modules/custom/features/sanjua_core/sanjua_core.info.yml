@@ -1,0 +1,29 @@
+name: Core
+description: 'Provides core components required by other features.'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - block_content
+  - ds
+  - field
+  - file
+  - flag
+  - image
+  - language
+  - link
+  - menu_link_content
+  - menu_ui
+  - metatag
+  - node
+  - paragraphs
+  - path
+  - pathauto
+  - redirect
+  - shortcut
+  - system
+  - taxonomy
+  - text
+  - user
+  - views
+package: Sanjua

@@ -1,0 +1,12 @@
+langcode: es
+status: true
+dependencies:
+  module:
+    - flag
+id: flag_action.like.unflag
+label: 'Quitar de Favoritos'
+type: node
+plugin: 'flag_action:like.unflag'
+configuration:
+  flag_id: like
+  flag_action: unflag
