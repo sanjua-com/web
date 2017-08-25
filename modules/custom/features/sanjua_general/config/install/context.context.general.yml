@@ -1,0 +1,82 @@
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+name: general
+label: 'General contents'
+group: general
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  current_theme:
+    id: current_theme
+    theme: base
+    negate: 0
+    uuid: 50db7bdc-d4de-48bb-ab9f-b01419f38490
+    context_mapping: {  }
+reactions:
+  blocks:
+    blocks:
+      5f3d4ea6-b6bb-416d-bcb2-f07aa68b5126:
+        id: page_title_block
+        label: 'Page title'
+        provider: core
+        label_display: 0
+        region: content
+        weight: '-3'
+        context_mapping: {  }
+        theme: base
+        unique: 0
+        uuid: 5f3d4ea6-b6bb-416d-bcb2-f07aa68b5126
+      7a28da17-cef4-4895-9340-9c7d6276a1d6:
+        id: local_tasks_block
+        label: Tabs
+        provider: core
+        label_display: 0
+        primary: 1
+        secondary: 1
+        region: content
+        weight: '-1'
+        context_mapping: {  }
+        theme: base
+        unique: 0
+        uuid: 7a28da17-cef4-4895-9340-9c7d6276a1d6
+      d0cc4f01-68e2-4eab-8297-b5804d78ebcc:
+        id: local_actions_block
+        label: 'Primary admin actions'
+        provider: core
+        label_display: 0
+        region: content
+        weight: '-2'
+        context_mapping: {  }
+        theme: base
+        unique: 0
+        uuid: d0cc4f01-68e2-4eab-8297-b5804d78ebcc
+      82b2afc2-9b61-4f4b-af6e-55c92d53b1c5:
+        id: system_main_block
+        label: 'Main page content'
+        provider: system
+        label_display: 0
+        region: content
+        weight: '0'
+        context_mapping: {  }
+        theme: base
+        unique: 0
+        uuid: 82b2afc2-9b61-4f4b-af6e-55c92d53b1c5
+      d6c55753-000e-475a-b55e-fa1f34698172:
+        id: system_messages_block
+        label: Messages
+        provider: system
+        label_display: 0
+        region: highlighted
+        weight: '0'
+        context_mapping: {  }
+        theme: base
+        unique: 0
+        uuid: d6c55753-000e-475a-b55e-fa1f34698172
+    id: blocks
+    saved: false
+    uuid: 38bc9cfe-f9fe-44e0-a7d4-e3bf39919a40
+weight: 0

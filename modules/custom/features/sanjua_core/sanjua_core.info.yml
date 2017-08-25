@@ -20,6 +20,7 @@ dependencies:
   - path
   - pathauto
   - redirect
+  - sanjua_general
   - shortcut
   - system
   - taxonomy
@@ -27,3 +28,4 @@ dependencies:
   - user
   - views
 package: Sanjua
+version: 8.x-1.0
