@@ -18,9 +18,12 @@ dependencies:
   - pathauto
   - rest
   - sanjua_core
+  - sanjua_general
+  - sanjua_taxonomy
   - serialization
   - taxonomy
   - text
   - user
   - views
 package: Sanjua
+version: 8.x-1.0

@@ -10,8 +10,8 @@ class SanjuaController extends ControllerBase {
    */
   public function content() {
     return array(
-      '#title' => 'General Settings',
-      '#markup' => 'Description for my first module in drupal 8',
+      '#title' => 'Pagina principal',
+      '#markup' => 'El primer portal social para los sanjuaninos.',
     );
   }
 }

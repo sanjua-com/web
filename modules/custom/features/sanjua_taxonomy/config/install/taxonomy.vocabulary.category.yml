@@ -1,8 +1,8 @@
 langcode: es
 status: true
 dependencies: {  }
-name: Tags
-vid: tags
+name: Categoría
+vid: category
 description: ''
-hierarchy: 0
+hierarchy: 1
 weight: 0

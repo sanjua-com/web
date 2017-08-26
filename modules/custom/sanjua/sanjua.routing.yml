@@ -1,5 +1,5 @@
 sanjua.content:
-  path: '/admin/settings'
+  path: '/frontpage'
   defaults:
     _controller: 'Drupal\sanjua\Controller\SanjuaController::content'
     _title: 'Page Title custom'

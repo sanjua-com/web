@@ -27,3 +27,4 @@ dependencies:
   - user
   - views
 package: Sanjua
+version: 8.x-1.0

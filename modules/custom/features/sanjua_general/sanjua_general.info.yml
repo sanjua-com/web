@@ -1,0 +1,21 @@
+name: General
+type: module
+core: 8.x
+dependencies:
+  - basic_auth
+  - block_content
+  - context
+  - ds
+  - features
+  - hal
+  - language
+  - node
+  - paragraphs
+  - rest
+  - system
+  - taxonomy
+  - text
+  - user
+  - views
+version: 8.x-1.0
+package: Sanjua

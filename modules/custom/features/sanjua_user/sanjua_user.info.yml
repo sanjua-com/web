@@ -7,3 +7,4 @@ dependencies:
   - system
   - user
 package: Sanjua
+version: 8.x-1.0

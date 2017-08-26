@@ -1,7 +1,9 @@
 bundle: sanjua
 excluded:
-  - paragraphs.paragraphs_type.three_columns
-  - core.entity_form_display.paragraph.three_columns.default
-  - core.entity_view_display.paragraph.three_columns.default
-  - core.entity_view_display.paragraph.three_columns.preview
+  - taxonomy.vocabulary.category
+  - taxonomy.vocabulary.tags
+  - views.view.home
+  - views.view.rest
+  - language.content_settings.taxonomy_term.category
+  - language.content_settings.taxonomy_term.tags
 required: true
