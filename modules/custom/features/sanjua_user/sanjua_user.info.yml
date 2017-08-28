@@ -3,7 +3,15 @@ description: 'Provide User related configuration.'
 type: module
 core: 8.x
 dependencies:
+  - block
+  - ckeditor
+  - editor
+  - field
+  - file
   - filter
+  - image
+  - sanjua_core
+  - sanjua_general
   - system
   - user
 package: Sanjua
