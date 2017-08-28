@@ -17,9 +17,6 @@ dependencies:
   - path
   - pathauto
   - rest
-  - sanjua_core
-  - sanjua_general
-  - sanjua_taxonomy
   - serialization
   - taxonomy
   - text

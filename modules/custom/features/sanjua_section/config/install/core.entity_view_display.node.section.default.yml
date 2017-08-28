@@ -1,0 +1,30 @@
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.section.body
+    - node.type.section
+  module:
+    - text
+    - user
+id: node.section.default
+targetEntityType: node
+bundle: section
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  flag_like:
+    weight: 10
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  langcode: true

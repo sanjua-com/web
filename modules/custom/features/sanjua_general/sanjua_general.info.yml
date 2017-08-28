@@ -10,7 +10,6 @@ dependencies:
   - hal
   - language
   - node
-  - paragraphs
   - rest
   - system
   - taxonomy

@@ -1,0 +1,14 @@
+name: Section
+description: 'Provides Section content type and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - field
+  - language
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+package: Sanjua
+version: 8.x-1.0
