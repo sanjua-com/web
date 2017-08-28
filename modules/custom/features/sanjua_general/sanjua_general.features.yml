@@ -1,2 +1,38 @@
 bundle: sanjua
-required: true
+required:
+  - context.context.general
+  - core.entity_form_mode.user.register
+  - core.entity_view_display.node.section.teaser
+  - core.entity_view_mode.block_content.full
+  - core.entity_view_mode.node.full
+  - core.entity_view_mode.node.revision
+  - core.entity_view_mode.node.rss
+  - core.entity_view_mode.node.search_index
+  - core.entity_view_mode.node.search_result
+  - core.entity_view_mode.node.teaser
+  - core.entity_view_mode.taxonomy_term.full
+  - core.entity_view_mode.user.compact
+  - core.entity_view_mode.user.full
+  - core.menu.static_menu_link_overrides
+  - ds.settings
+  - ds_extras.settings
+  - google_analytics.settings
+  - language.types
+  - redirect.settings
+  - rest.settings
+  - serialization.settings
+  - system.cron
+  - system.image.gd
+  - system.image
+  - system.mail
+  - system.theme.global
+  - system.theme
+  - taxonomy.settings
+  - user.mail
+  - user.settings
+  - features.bundle.default
+  - features.bundle.sanjua
+  - language.entity.und
+  - rest.resource.entity.node
+  - views.view.archive
+  - pathauto.pattern.term

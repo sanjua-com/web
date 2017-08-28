@@ -5,12 +5,15 @@ dependencies:
   - basic_auth
   - block_content
   - context
+  - ctools
   - ds
   - features
   - hal
   - language
   - node
+  - pathauto
   - rest
+  - sanjua_section
   - system
   - taxonomy
   - text
