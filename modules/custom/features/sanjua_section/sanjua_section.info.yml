@@ -8,6 +8,7 @@ dependencies:
   - menu_ui
   - node
   - path
+  - sanjua_core
   - text
   - user
 package: Sanjua
