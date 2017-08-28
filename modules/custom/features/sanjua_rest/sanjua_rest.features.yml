@@ -1,4 +1,4 @@
 bundle: sanjua
-excluded:
-  - image.style.mobile
-required: true
+required:
+  - views.view.rest_categories
+  - views.view.rest_home

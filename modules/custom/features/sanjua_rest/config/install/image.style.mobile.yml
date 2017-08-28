@@ -1,0 +1,13 @@
+langcode: es
+status: true
+dependencies: {  }
+name: mobile
+label: Mobile
+effects:
+  7a74870b-bdb0-4ef7-a92f-998e04097fc7:
+    uuid: 7a74870b-bdb0-4ef7-a92f-998e04097fc7
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 750
+      height: 424
