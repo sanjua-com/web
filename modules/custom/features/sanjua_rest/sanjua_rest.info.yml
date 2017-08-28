@@ -3,3 +3,15 @@ type: module
 core: 8.x
 version: 8.x-1.0
 package: Sanjua
+dependencies:
+  - color_field
+  - image
+  - node
+  - rest
+  - sanjua_article
+  - sanjua_core
+  - sanjua_taxonomy
+  - serialization
+  - taxonomy
+  - user
+  - views
