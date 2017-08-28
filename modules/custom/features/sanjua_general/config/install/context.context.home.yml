@@ -1,0 +1,38 @@
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+name: home
+label: Home
+group: null
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: 0
+    uuid: af49c315-3ebc-4413-bd76-287295691317
+    context_mapping: {  }
+reactions:
+  blocks:
+    blocks:
+      c9a24b26-b10b-45c0-a1c1-9450dea376d2:
+        id: 'views_block:home-block_1'
+        label: ''
+        provider: views
+        label_display: visible
+        views_label: ''
+        items_per_page: none
+        region: content
+        weight: '0'
+        context_mapping: {  }
+        theme: base
+        unique: 0
+        uuid: c9a24b26-b10b-45c0-a1c1-9450dea376d2
+    id: blocks
+    saved: false
+    uuid: b2992f5a-47fb-4721-b5b7-c5511ae629d9
+weight: 0

@@ -1,6 +1,7 @@
 bundle: sanjua
 required:
   - context.context.general
+  - context.context.home
   - core.entity_form_mode.user.register
   - core.entity_view_display.node.section.teaser
   - core.entity_view_mode.block_content.full
@@ -34,5 +35,4 @@ required:
   - features.bundle.sanjua
   - language.entity.und
   - rest.resource.entity.node
-  - views.view.archive
   - pathauto.pattern.term
