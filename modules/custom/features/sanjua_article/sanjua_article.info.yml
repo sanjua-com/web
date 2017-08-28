@@ -15,9 +15,11 @@ dependencies:
   - language
   - menu_ui
   - node
-  - paragraphs
   - path
   - rest
+  - sanjua_core
+  - sanjua_general
+  - sanjua_taxonomy
   - serialization
   - taxonomy
   - text
