@@ -1,9 +1,23 @@
 bundle: sanjua
-excluded:
-  - taxonomy.vocabulary.category
-  - taxonomy.vocabulary.tags
-  - views.view.home
-  - views.view.rest
-  - language.content_settings.taxonomy_term.category
-  - language.content_settings.taxonomy_term.tags
-required: true
+required:
+  - context.context.article
+  - core.base_field_override.node.article.promote
+  - core.base_field_override.node.article.title
+  - core.entity_form_display.node.article.default
+  - core.entity_view_display.node.article.default
+  - core.entity_view_display.node.article.full
+  - core.entity_view_display.node.article.teaser
+  - embed.button.node
+  - field.field.node.article.body
+  - field.field.node.article.field_category
+  - field.field.node.article.field_dropline
+  - field.field.node.article.field_images
+  - field.field.node.article.field_source
+  - field.field.node.article.field_tags
+  - field.storage.node.field_category
+  - field.storage.node.field_dropline
+  - field.storage.node.field_images
+  - field.storage.node.field_source
+  - field.storage.node.field_tags
+  - language.content_settings.node.article
+  - node.type.article
