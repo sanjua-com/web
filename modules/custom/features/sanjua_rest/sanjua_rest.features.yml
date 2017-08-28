@@ -1,2 +1,4 @@
 bundle: sanjua
+excluded:
+  - image.style.mobile
 required: true

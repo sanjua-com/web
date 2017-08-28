@@ -4,7 +4,7 @@ dependencies:
   config:
     - field.storage.node.field_dropline
     - field.storage.node.field_images
-    - image.style.large
+    - image.style.mobile
     - node.type.article
   module:
     - image
@@ -324,7 +324,7 @@ display:
           click_sort_column: target_id
           type: image_url
           settings:
-            image_style: large
+            image_style: mobile
           group_column: ''
           group_columns: {  }
           group_rows: true

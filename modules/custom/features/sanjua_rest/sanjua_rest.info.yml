@@ -8,6 +8,8 @@ dependencies:
   - image
   - node
   - rest
+  - sanjua_article
+  - sanjua_taxonomy
   - serialization
   - taxonomy
   - user
