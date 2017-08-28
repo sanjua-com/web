@@ -13,7 +13,6 @@ dependencies:
   - node
   - pathauto
   - rest
-  - sanjua_section
   - system
   - taxonomy
   - text
